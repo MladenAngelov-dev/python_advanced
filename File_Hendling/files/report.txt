@@ -1,0 +1,10 @@
+.css
+- - - notess.css
+.html
+- - - file.html
+.js
+- - - notes.js
+.py
+- - - directory_traversal.py
+.txt
+- - - report.txt
