@@ -8,6 +8,8 @@ def next_move(command, current_row, current_col):
     if command == "right" and is_valid(current_col+1, cols):
         return current_row, current_col+1
     return None, None
+
+
 def is_valid(value, max_value):
     return 0<= value < max_value
 
@@ -54,6 +56,7 @@ while line:
         matrix[next_row][next_col] = "R"
         print("Pizza is collected. 10 minutes for delivery.")
         continue
+
     if not matrix[boy_row][boy_col] == "R":
         matrix[boy_row][boy_col] = "."
     boy_row, boy_col = next_row, next_col
