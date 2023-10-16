@@ -4,10 +4,6 @@ from helpter import clean_screen
 import json
 
 
-def render_products_screen():
-    pass
-
-
 def login(user_name, passw):
     with open("db/user_credential_db.txt") as file:
         data = file.readlines()
