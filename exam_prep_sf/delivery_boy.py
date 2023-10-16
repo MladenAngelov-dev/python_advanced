@@ -11,7 +11,7 @@ def next_move(command, current_row, current_col):
 
 
 def is_valid(value, max_value):
-    return 0<= value < max_value
+    return 0 <= value < max_value
 
 
 rows ,  cols = [int(x) for x in input().split(" ")]
