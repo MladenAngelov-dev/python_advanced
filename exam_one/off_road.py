@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from collections import deque
 
 fuel = [int(x) for x in input().split()]
@@ -34,7 +34,7 @@ if is_fail:
         print("Reached altitudes: " + ", ".join([f"Altitude {alt}" for alt in reached]))
 else:
     print("John has reached all the altitudes and managed to reach the top!")
-=======
+
 from collections import deque
 
 fuel = [int(x) for x in input().split()]
@@ -70,4 +70,4 @@ if is_fail:
         print("Reached altitudes: " + ", ".join([f"Altitude {alt}" for alt in reached]))
 else:
     print("John has reached all the altitudes and managed to reach the top!")
->>>>>>> origin/main
+

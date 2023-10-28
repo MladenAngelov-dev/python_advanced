@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 def team_lineup(*players):
     national_teams = dict()
 
@@ -33,7 +33,7 @@ print(team_lineup(
    ("Bruno Fernandes", "Portugal"),
    ("Bernardo Silva", "Portugal"),
    ("Harry Maguire", "England")))
-=======
+
 def team_lineup(*players):
     national_teams = dict()
 
@@ -68,4 +68,3 @@ print(team_lineup(
    ("Bruno Fernandes", "Portugal"),
    ("Bernardo Silva", "Portugal"),
    ("Harry Maguire", "England")))
->>>>>>> origin/main
